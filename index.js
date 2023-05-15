@@ -67,7 +67,7 @@ function makesound(key){
 function animator(butt){
 
 document.querySelector("."+butt).classList.add("pressed");
-setTimeout(function (){document.querySelector("."+butt).classList.remove("pressed");},500);
+setTimeout(function (){document.querySelector("."+butt).classList.remove("pressed");},200);
 
 
 }
